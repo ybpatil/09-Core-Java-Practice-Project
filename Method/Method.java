@@ -1,4 +1,4 @@
-package com.Method;
+package com.methods;
 
 import java.util.Scanner;
 
@@ -20,7 +20,7 @@ public class Method {
         System.out.println("Enter number : ");
         int age = in.nextInt();
 
-        if (age >= 18)
+        if (age >= 18 && age <= 100)
             System.out.println("Eligible for voting");
         else
             System.out.println("Not eligible for voting");

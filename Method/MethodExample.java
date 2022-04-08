@@ -1,9 +1,10 @@
-package com.Method;
+package com.methods;
 
 public class MethodExample {
 
     int a = 10; // Instance variable
     static int b = 20; // Static /class variable
+    static String name = "Yogesh";
 
     public static void main(String[] args) {
 
@@ -14,6 +15,7 @@ public class MethodExample {
 
         System.out.println(MethodExample.b); // As this is a static / class var we can access it without creating an object
 //        System.out.println(a);
+        System.out.println(MethodExample.name);
 
     }
 
